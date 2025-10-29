@@ -169,7 +169,7 @@ AC_ARG_WITH(7segment,
 	AC_HELP_STRING([--with-7segment], [use 7 segment lcd, yes or no]),
 	[[TEXTSKIN="7segment"]],
 	[[TEXTSKIN="default"]]
-
+)
 AC_ARG_WITH(libsdl,
 	AS_HELP_STRING([--with-libsdl],[use libsdl, yes or no]),
 	[with_libsdl=$withval],[with_libsdl=no])
