@@ -6,9 +6,5 @@ SUBDIRS = SoftwareManager PositionerSetup Satfinder \
 	CableScan FastScan OSDPositionSetup OSD3DSetup HdmiCEC VideoClippingSetup \
 	VideoEnhancement WirelessLan NetworkWizard FastChannelChange
 
-if HAVE_TEMPFANCONTROL
-SUBDIRS += TempFanControl
-endif
-
 install_PYTHON =	\
 	__init__.py
